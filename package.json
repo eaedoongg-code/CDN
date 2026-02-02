@@ -1,0 +1,28 @@
+{
+    "name": "Firefly",
+    "version": "1.0.0",
+    "description": "CDN",
+    "private": true,
+    "type": "module",
+    "scripts": {
+        "dev": "nuxt dev",
+        "build": "nuxt build",
+        "generate": "nuxt generate",
+        "preview": "nuxt preview"
+    },
+    "dependencies": {
+        "@vercel/analytics": "^1.5.0",
+        "nuxt": "3.13.2"
+    },
+    "packageManager": "pnpm@10.18.3",
+    "pnpm": {
+        "allowedBuiltDependencies": [
+            "esbuild",
+            "@parcel/watcher"
+        ],
+        "onlyBuiltDependencies": [
+            "@parcel/watcher",
+            "esbuild"
+        ]
+    }
+}
